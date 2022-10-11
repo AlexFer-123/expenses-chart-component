@@ -52,5 +52,32 @@ body {
   border-radius: 1rem;
   width: calc(375px - 2rem);
 }
+.spending .spending-last-days {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: hsl(25deg, 47%, 15%);
+}
+.spending .graphic {
+  display: flex;
+  justify-content: space-between;
+}
+.spending .graphic .day {
+  font-size: 13px;
+  padding: 1rem 0;
+  color: hsl(28deg, 10%, 53%);
+}
+.spending .graphic .data {
+  height: 9rem;
+  background-color: hsl(10deg, 79%, 65%);
+  width: 2rem;
+  border-radius: 0.4rem;
+}
+.spending .divider {
+  width: 100%;
+  background-color: hsl(27deg, 66%, 92%);
+  margin: 1rem 0;
+  height: 2px;
+}
 
 /*# sourceMappingURL=main.css.map */

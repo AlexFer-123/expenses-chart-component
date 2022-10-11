@@ -63,6 +63,38 @@ body {
     padding: 1rem;
     border-radius: 1rem;
     width: calc(375px - 2rem);
+
+    .spending-last-days {
+        padding: 1rem 0;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: var.$dark-brown;
+    }
+
+    .graphic {
+        display: flex;
+        justify-content: space-between;
+
+        .day {
+            font-size: 13px;
+            padding: 1rem 0;
+            color: var.$medium-brown;
+        }
+
+        .data {
+            height: 9rem;
+            background-color: var.$soft-red;
+            width: 2rem;
+            border-radius: .4rem;
+        }
+    }
+    .divider {
+        width: 100%;
+        background-color: var.$cream;
+        margin: 1rem 0;
+        height: 2px;
+    }
+
 }
 
  
