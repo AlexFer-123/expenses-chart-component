@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -5,11 +6,51 @@
 }
 
 body {
-  background-color: red;
+  background-color: hsl(27deg, 66%, 92%);
   color: black;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: center;
 }
-body a {
+.expenses-chart {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 1rem;
+  align-items: center;
+}
+
+.balance {
+  background-color: hsl(10deg, 79%, 65%);
+  padding: 1rem;
+  width: calc(375px - 2rem);
   color: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.balance .actual-balance p {
+  font-size: 400;
+  color: hsl(27deg, 66%, 92%);
+  margin-bottom: 0.5rem;
+}
+.balance .actual-balance p.money {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.balance .circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.8);
+}
+
+.spending {
+  background-color: hsl(33deg, 100%, 98%);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: calc(375px - 2rem);
 }
 
 /*# sourceMappingURL=main.css.map */

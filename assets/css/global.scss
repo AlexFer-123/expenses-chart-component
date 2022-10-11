@@ -8,10 +8,61 @@
 }
 
 body {
-    background-color: var.$bg-background;
+    background-color: var.$cream;
     color: black;
+    font-family: var.$font-family;
+    display: flex;
+    justify-content: center;
 
-    a {
-        color: white;
+    section {
+
     }
 }
+
+.expenses-chart {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    align-items: center;
+}
+
+.balance {
+    background-color: var.$soft-red;
+    padding: 1rem;
+    width: calc(375px - 2rem);
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    .actual-balance {
+        p {
+            font-size: 400;
+            color: var.$cream;
+            margin-bottom: .5rem;
+        }
+        
+        p.money {
+            font-size: 1.7rem;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+    }
+
+    .circles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(.8);
+    }
+}
+.spending {
+    background-color: var.$very-pale-orange;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: calc(375px - 2rem);
+}
+
+ 
